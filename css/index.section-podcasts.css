@@ -1,7 +1,8 @@
 .podcasts {
     padding-top:60px;
     padding-bottom:110px;
-    font-style:normal;
+    background-color:#1a1b29;
+    color:#ffffff;
 }
 
 .podcasts__info {
@@ -9,9 +10,14 @@
     padding-right:24px;
 }
 
+.podcasts__intro-top-content {
+   flex-wrap:wrap;
+}
+
 .podcasts__intro-icon {
     font-size:30px;
     color:#7F00FF;
+    font-weight:normal;
 }
 
 .podcasts__intro-subtitle {
@@ -19,11 +25,29 @@
     font-size:12px;
     letter-spacing:1.2px;
     text-transform:uppercase;
+    font-weight:bold;
+    line-height:16.8px;
 }
 
 .podcasts__intro-bottom-content {
     margin-top:50px;
     margin-bottom:50px;
+}
+
+.podcasts__intro-description {
+    font-size:18px;
+    line-height:27px;
+}
+
+.podcasts__item-img {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.podcasts__item-title {
+    font-size:22px;
+    margin:auto;
+    line-height:33px;
 }
 
 
