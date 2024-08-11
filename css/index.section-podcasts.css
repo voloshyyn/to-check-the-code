@@ -1,3 +1,31 @@
-.podcasts__intro-icon {
-    color: #7F00FF;
+.podcasts {
+    padding-top:60px;
+    padding-bottom:110px;
+    font-style:normal;
 }
+
+.podcasts__info {
+    padding-left:24px;
+    padding-right:24px;
+}
+
+.podcasts__intro-icon {
+    font-size:30px;
+    color:#7F00FF;
+}
+
+.podcasts__intro-subtitle {
+    color:#DBDBDB;
+    font-size:12px;
+    letter-spacing:1.2px;
+    text-transform:uppercase;
+}
+
+.podcasts__intro-bottom-content {
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+
+
+
