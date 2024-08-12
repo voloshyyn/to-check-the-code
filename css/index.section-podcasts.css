@@ -10,10 +10,6 @@
     padding-right:24px;
 }
 
-.podcasts__intro-top-content {
-   flex-wrap:wrap;
-}
-
 .podcasts__intro-icon {
     font-size:30px;
     color:#7F00FF;
@@ -31,7 +27,7 @@
 
 .podcasts__intro-bottom-content {
     margin-top:50px;
-    margin-bottom:50px;
+    margin-bottom:45px;
 }
 
 .podcasts__intro-description {
@@ -41,15 +37,83 @@
 
 .podcasts__item-img {
     padding-top:10px;
-    padding-bottom:10px;
 }
 
 .podcasts__item-title {
     font-size:22px;
-    margin:auto;
+    margin-top:20px;
     line-height:33px;
+}
+
+.podcasts__item-details {
+    margin-top:20px;
+}
+
+.podcasts__item-info-item {
+    list-style-type:none;
+    display:flex;
+    margin-bottom:16px;
+    line-height:24px;
+}
+
+.podcasts__item-info-icon {
+    width:20px;
+    height:24px;
+}
+
+.podcasts__item-info-text {
+    font-size:14px;
+    font-weight:700;
+    margin-left:10px;
+}
+
+.podcasts__item-description {
+    font-size:16px;
+    color:#cccccc;
+    line-height:24px;
+    margin-top:20px;
+
+}
+
+.podcasts__list hr {
+    background-color:rgba(255, 255, 255, 0.1);
+    border-color:rgba(255, 255, 255, 0.1);
+    width:100%;
+    opacity:0.5;
+    margin-top:15px;
+    margin-bottom:15px;
 }
 
 
 
+.podcasts__item-cta {
+    margin-top:40px;
+    line-height:18px;
+    display: flex;
+    margin-bottom:30px;
+}
 
+.podcasts__item-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #c700fe, #5300fb);
+    color: white;
+    padding: 10px 35px;
+    border:none;
+    border-radius: 40px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.podcasts__item-link-text {
+    padding-right:8px;
+    font-size:14px;
+    font-weight:700;
+
+}
+
+.podcasts__item-link-icon {
+    width:22px;
+    height:22px;
+}
